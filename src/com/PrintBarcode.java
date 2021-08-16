@@ -150,7 +150,7 @@ public class PrintBarcode implements DocumentListener {
 "^PQ1,0,1,Y^XZ";*/
 
         //10*3.5
-     /*   String barcode ="CT~~CD,~CC^~CT~"+
+/*        String barcode ="CT~~CD,~CC^~CT~"+
                 "^XA~TA000~JSN^LT0^MNW^MTT^PON^PMN^LH0,0^JMA^PR6,6~SD30^JUS^LRN^CI0^XZ"+
                 "^XA"+
                 "^MMT"+
@@ -164,8 +164,8 @@ public class PrintBarcode implements DocumentListener {
 
                 "^FT533,341^A0N,56,55^FB529,1,0,C^FH\\^FDvincode^FS"+
                 "^PQ1,0,1,Y^XZ";*/
-        String barcode = "CT~~CD,~CC^~CT~" +
-                "^XA~TA000~JSN^LT0^MNW^MTT^PON^PMN^LH0,0^JMA^PR6,6~SD15^JUS^LRN^CI0^XZ" +
+/*        String barcode = "CT~~CD,~CC^~CT~" +
+                "^XA~TA000~JSN^LT0^MNW^MTT^PON^PMN^LH0,0^JMA^PR6,6~SD15^JUS^LRN^CI0^XZ\n" +
                 "^XA" +
                 "^MMT" +
                 "^PW1181" +
@@ -173,6 +173,32 @@ public class PrintBarcode implements DocumentListener {
                 "^LS0" +
                 "^FT386,210^A0N,88,84^FB760,1,0,R^FH\\^FDvincode^FS" +
                 "^BY342,330^FT23,354^BXN,19,200,0,0,1,~" +
+                "^FH\\^FDvincode^FS" +
+                "^PQ1,0,1,Y^XZ";*/
+/*        String barcode = "CT~~CD,~CC^~CT~"+
+                "^XA~TA000~JSN^LT0^MNW^MTT^PON^PMN^LH0,0^JMA^PR6,6~SD15^JUS^LRN^CI0^XZ" +
+                "^XA" +
+                "^MMT" +
+                "^PW1181" +
+                "^LL0354" +
+                "^LS0" +
+                "^FT391,279^A0N,79,76^FB723,1,0,R^FH\\^FDvincode^FS" +
+                "^BY342,331^FT6,354^BXN,19,200,0,0,1,~" +
+                "^FH\\^FDvincode^FS" +
+                "^BY3,3,128^FT427,188^BCN,,N,N" +
+                "^FD>:vincode^FS" +
+                "^PQ1,0,1,Y^XZ";*/
+        String barcode = "CT~~CD,~CC^~CT~"+
+                "^XA~TA000~JSN^LT0^MNW^MTT^PON^PMN^LH0,0^JMA^PR6,6~SD30^JUS^LRN^CI0^XZ" +
+                "^XA" +
+                "^MMT" +
+                "^PW1166" +
+                "^LL0339" +
+                "^LS0" +
+                "^BY3,3,112^FT451,166^BCN,,N,N" +
+                "^FD>:vincode^FS" +
+                "^FT482,264^A0N,62,60^FH\\^FDvincode^FS" +
+                "^BY238,238^FT73,305^BXN,17,200,0,0,1,~" +
                 "^FH\\^FDvincode^FS" +
                 "^PQ1,0,1,Y^XZ";
 
