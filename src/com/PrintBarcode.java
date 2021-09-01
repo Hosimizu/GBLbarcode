@@ -188,7 +188,8 @@ public class PrintBarcode implements DocumentListener {
                 "^BY3,3,128^FT427,188^BCN,,N,N" +
                 "^FD>:vincode^FS" +
                 "^PQ1,0,1,Y^XZ";*/
-        String barcode = "CT~~CD,~CC^~CT~"+
+        //左DM
+/*        String barcode = "CT~~CD,~CC^~CT~"+
                 "^XA~TA000~JSN^LT0^MNW^MTT^PON^PMN^LH0,0^JMA^PR6,6~SD30^JUS^LRN^CI0^XZ" +
                 "^XA" +
                 "^MMT" +
@@ -198,7 +199,37 @@ public class PrintBarcode implements DocumentListener {
                 "^BY3,3,112^FT451,166^BCN,,N,N" +
                 "^FD>:vincode^FS" +
                 "^FT482,264^A0N,62,60^FH\\^FDvincode^FS" +
-                "^BY238,238^FT73,305^BXN,17,200,0,0,1,~" +
+                "^BY306,272^FT73,339^BXN,17,200,0,0,1,~" +
+                "^FH\\^FDvincode^FS" +
+                "^PQ1,0,1,Y^XZ";*/
+        //左QR
+/*        String barcode = "CT~~CD,~CC^~CT~"+
+                "^XA~TA000~JSN^LT0^MNW^MTT^PON^PMN^LH0,0^JMA^PR6,6~SD30^JUS^LRN^CI0^XZ" +
+                "^XA" +
+                "^MMT" +
+                "^PW1166" +
+                "^LL0339" +
+                "^LS0" +
+                "^BY3,3,112^FT451,166^BCN,,N,N" +
+                "^FD>:vincode^FS" +
+                "^FT482,264^A0N,62,60^FH\\^FDvincode^FS" +
+                "^FT79,369^BQN,2,10" +
+                "^FDHA,vincode^FS" +
+                "^PQ1,0,1,Y^XZ";*/
+        //左右护法
+        String barcode = "CT~~CD,~CC^~CT~"+
+                "^XA~TA000~JSN^LT0^MNW^MTT^PON^PMN^LH0,0^JMA^PR6,6~SD30^JUS^LRN^CI0^XZ" +
+                "^XA" +
+                "^MMT" +
+                "^PW1166" +
+                "^LL0339" +
+                "^LS0" +
+                "^BY2,3,96^FT387,228^BCN,,N,N" +
+                "^FD>:LMGMU1G83M>5108545>61^FS" +
+                "^FT382,306^A0N,54,48^FH\\^FDvincode^FS" +
+                "^FT855,369^BQN,2,10" +
+                "^FDHA,vincode^FS" +
+                "^BY324,274^FT27,339^BXN,18,200,0,0,1,~" +
                 "^FH\\^FDvincode^FS" +
                 "^PQ1,0,1,Y^XZ";
 
