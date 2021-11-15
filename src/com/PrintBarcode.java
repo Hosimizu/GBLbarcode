@@ -233,7 +233,7 @@ public class PrintBarcode implements DocumentListener {
                 "^BY324,274^FT27,359^BXN,18,200,0,0,1,~" +
                 "^FH\\^FDvincode^FS" +
                 "^PQ1,0,1,Y^XZ";
-        //test
+        //test + gitlab
 
         barcode = barcode.replaceAll("vincode", vincode);
         printImage("ZDesigner ZT410-300dpi ZPL", barcode);
