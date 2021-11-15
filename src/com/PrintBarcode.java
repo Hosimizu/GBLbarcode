@@ -217,6 +217,7 @@ public class PrintBarcode implements DocumentListener {
                 "^FDHA,vincode^FS" +
                 "^PQ1,0,1,Y^XZ";*/
         //左右护法
+        //FT27,339^BXN TO FT27,359^BXN
         String barcode = "CT~~CD,~CC^~CT~"+
                 "^XA~TA000~JSN^LT0^MNW^MTT^PON^PMN^LH0,0^JMA^PR6,6~SD30^JUS^LRN^CI0^XZ" +
                 "^XA" +
@@ -229,12 +230,11 @@ public class PrintBarcode implements DocumentListener {
                 "^FT382,306^A0N,54,48^FH\\^FDvincode^FS" +
                 "^FT855,369^BQN,2,10" +
                 "^FDHA,vincode^FS" +
-                "^BY324,274^FT27,339^BXN,18,200,0,0,1,~" +
+                "^BY324,274^FT27,359^BXN,18,200,0,0,1,~" +
                 "^FH\\^FDvincode^FS" +
                 "^PQ1,0,1,Y^XZ";
 
         barcode = barcode.replaceAll("vincode", vincode);
-        //System.out.println(barcode);
         printImage("ZDesigner ZT410-300dpi ZPL", barcode);
     }
 
