@@ -149,8 +149,8 @@ public class PrintBarcode implements DocumentListener {
 "^FT543,411^A0N,58,57^FB529,1,0,C^FH\\^FDvincode^FS"+
 "^PQ1,0,1,Y^XZ";*/
 
-        //10*3.5
-/*        String barcode ="CT~~CD,~CC^~CT~"+
+        //10*3.5 原始版本
+        String barcode ="CT~~CD,~CC^~CT~"+
                 "^XA~TA000~JSN^LT0^MNW^MTT^PON^PMN^LH0,0^JMA^PR6,6~SD30^JUS^LRN^CI0^XZ"+
                 "^XA"+
                 "^MMT"+
@@ -163,7 +163,7 @@ public class PrintBarcode implements DocumentListener {
                 "^FDLA,vincode^FS"+
 
                 "^FT533,341^A0N,56,55^FB529,1,0,C^FH\\^FDvincode^FS"+
-                "^PQ1,0,1,Y^XZ";*/
+                "^PQ1,0,1,Y^XZ";
 /*        String barcode = "CT~~CD,~CC^~CT~" +
                 "^XA~TA000~JSN^LT0^MNW^MTT^PON^PMN^LH0,0^JMA^PR6,6~SD15^JUS^LRN^CI0^XZ\n" +
                 "^XA" +
@@ -217,8 +217,8 @@ public class PrintBarcode implements DocumentListener {
                 "^FDHA,vincode^FS" +
                 "^PQ1,0,1,Y^XZ";*/
         //左右护法
-        //FT27,339^BXN TO FT27,359^BXN
-        String barcode = "CT~~CD,~CC^~CT~"+
+//        FT27,339^BXN TO FT27,359^BXN
+/*        String barcode = "CT~~CD,~CC^~CT~"+
                 "^XA~TA000~JSN^LT0^MNW^MTT^PON^PMN^LH0,0^JMA^PR6,6~SD30^JUS^LRN^CI0^XZ" +
                 "^XA" +
                 "^MMT" +
@@ -226,13 +226,13 @@ public class PrintBarcode implements DocumentListener {
                 "^LL0339" +
                 "^LS0" +
                 "^BY2,3,96^FT387,228^BCN,,N,N" +
-                "^FD>:LMGMU1G83M>5108545>61^FS" +
+                "^FD>:vincode^FS" +
                 "^FT382,306^A0N,54,48^FH\\^FDvincode^FS" +
                 "^FT855,369^BQN,2,10" +
                 "^FDHA,vincode^FS" +
                 "^BY324,274^FT27,359^BXN,18,200,0,0,1,~" +
                 "^FH\\^FDvincode^FS" +
-                "^PQ1,0,1,Y^XZ";
+                "^PQ1,0,1,Y^XZ";*/
         //test + gitlab
 
         barcode = barcode.replaceAll("vincode", vincode);
